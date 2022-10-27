@@ -27,7 +27,7 @@ from funcionarios
 where sexo = 'Masculino'
 or departamento = 'Jardim';
 
-
+select count(*) as quantidade, sexo from funcionarios group by sexo;
 
 
 
